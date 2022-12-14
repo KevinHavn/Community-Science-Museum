@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width:100%;
+}
+
+textarea {
+    resize:none;
+    width:250px;
+}
+/*Beginning of Navigation Bar */
+.menu a:visited, .menu a:hover, .menu a:focus {
+    text-decoration: none;
+    color:white;
+}
+body {
+    background-color: white;
+    font-family: "Poppins", 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+    background-color: black;
+    box-shadow: 1px 1px 5px 0px gray;
+    position:absolute;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    display:inline-block;
+    color:white;
+    max-width:36px;
+    margin-left:10px;
+}
+nav {
+    width:100%;
+    height:100%;
+    position:fixed;
+    background-color:black;
+    overflow:hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+.menu {
+    display:block;
+    padding:20px;
+    color:white;
+}
+.menu a:hover {
+    color:gray;
+}
+.hamburger {
+    cursor:pointer;
+    float:right;
+    padding:40px 20px;
+}
+.hamburger-line {
+    background: white;
+    display: block;
+    height: 2px;
+    position:relative;
+    width: 24px;
+
+}
+.hamburger-line::before,
+.hamburger-line::after{
+    background:white;
+    content: '';
+    display:block;
+    height:100%;
+    position:absolute;
+    transition:all .2s ease-out;
+    width:100%;
+}
+.hamburger-line::before {
+    top:5px;
+}
+.hamburger-line::after {
+    top:-5px;
+}
+.side-menu {
+    display:none;
+}
+.side-menu:checked ~ nav{
+    max-height:100%;
+}
+.side-menu:checked ~ .hamburger .hamburger-line::before{
+    transform:rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamburger .hamburger-line::after{
+    transform:rotate(-45deg);
+    top:0;
+}
+#selected  {
+    color:gray;
+}
+@media (min-width: 768px) {
+    nav {
+        max-height:none;
+        top:0;
+        position:relative;
+        float:right;
+        width:fit-content;
+    }
+    .menu li {
+        float:left;
+        margin-left:20px;
+        margin-top:-10px;    
+    }
+    menu a:hover{
+        background-color:transparent;
+        color:gray;
+    }
+    .hamburger{
+        display:none;
+    }
+    .hidden {
+        display:none;
+    }
+}
+/* End of Navigation Bar */
+.container {
+    text-align: center;
+    background:lightgray;
+    overflow: hidden;
+    border: 1px solid black;
+}
+footer {
+    margin-top:20px;
+    background-color:black;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+}
+.footer {
+    display:flex;
+    gap:5px;
+}
+table {
+    width:300px;
+}
+.flex {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+.column {
+    flex-direction:column;
+}
+.grid {
+    display:grid;
+    gap:20px;
+    min-height:0;
+    min-width:0;
+    margin:160px;
+}
+#indexgrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+#visitgrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+#exhibitiongrid {
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(3,auto);
+}
+/* ID for Index Page */
+#news {
+    grid-column:1;
+    grid-row:1;
+}
+#tour {
+    grid-column:1;
+    grid-row:2;
+}
+#openinghours {
+    grid-column:1;
+    grid-row:3;
+}
+#welcome {
+    grid-column:2 / 4;
+}
+#grandopening {
+    grid-column:2 / 4;
+    grid-row:2 / 4;
+}
+/* ID for Visit page */
+#information {
+    grid-column:1 / 3;
+    grid-row:1;
+}
+#prices {
+    grid-column: 1;
+    grid-row:2;
+}
+#address {
+    grid-column:2;
+    grid-row:2;
+}
+#guidedtours {
+    grid-column:1;
+    grid-row:3;
+}
+#cafè {
+    grid-column:2;
+    grid-row:3;
+}
+/* ID for Exhibitions Page */
+#info {
+    grid-column: 1 / 3
+}

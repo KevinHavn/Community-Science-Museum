@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Community Science Museum | Visit" />
+    <meta
+      name="description"
+      content="Page containing any information you'd require to visit the Community Science Museum." />
+    <title>Community Science Museum | Visit</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6c3e32c1c7.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Images/museum.png"
+        class="logo"
+        alt="Community Science Museum Icon" />
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamburger" for="side-menu"
+      <span class="hidden"><label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label></span>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Upcoming Events</a></li>
+          <li id="selected">Visit</li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="grid" id="visitgrid">
+        <section class="container" id="information">
+          <h1>All information in one place!</h1>
+          <p>
+            All the information you'll be needing to visit our museum can be
+            found within this page!
+          </p>
+        </section>
+        <section class="container flex column" id="prices">
+          <h2>Our prices</h2>
+          <table>
+            <tr>
+              <td>Children 0-3</td>
+              <td>0,-</td>
+            </tr>
+            <tr>
+              <td>Children 3-15</td>
+              <td>160,-</td>
+            </tr>
+            <tr>
+              <td>Adult</td>
+              <td>200,-</td>
+            </tr>
+            <tr>
+              <td>Student</td>
+              <td>150,-</td>
+            </tr>
+          </table>
+          <p>Tickets are available for purchase in our ticket booth.</p>
+          <img
+            src="Images/Ticket booth.jpg"
+            alt="Image of our ticket booth, where tickets are available for purchase." />
+        </section>
+        <section class="container" id="address">
+          <h3>Our address</h3>
+          <p>
+            Museum avenue 51 <br />
+            5075, Bergen
+          </p>
+          <img
+            src="Images/Map.png"
+            alt="Map showing the location of the Museum" />
+        </section>
+        <section class="container flex column" id="guidedtours">
+          <h4>Guided Tours?</h4>
+          <p>
+            We offer guided tours to groups of people, e.g. schools, and
+            workplaces.<br />
+            Fill in the form below and we'll contact you.
+          </p>
+          <form>
+            <label for="email">E-Mail Address</label> <br />
+            <input type="email" name="E-Mail Address" required /> <br />
+            <label for="message">Details on what you need</label><br />
+            <textarea type="message" name="Details"></textarea> <br />
+            <input type="submit" value="Send message" />
+          </form>
+          <img
+            src="Images/Tour guide.jpg"
+            alt="Tour guide giving a group of visitors a tour" />
+        </section>
+        <section class="container" id="cafè">
+          <h5>Our Cafè</h5>
+          <p>
+            The museum's cafè is located in the main building and serves a
+            veriety of delicious food and refreshing drinks! <br />
+            Please note that drinks are not allowed near the displays.
+          </p>
+          <img src="Images/cafe.jpg" alt="Image of a Cafè" />
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section class="footer">
+        <i class="fa-regular fa-map"></i>
+        <p>Museum avenue 51</p>
+      </section>
+      <section>Developed by Kevin Havn</section>
+      <section>
+        <i class="fa-regular fa-envelope"></i>
+        <address>CommunityScienceMuseum@MuseumEmail.com</address>
+      </section>
+    </footer>
+  </body>
+</html>
