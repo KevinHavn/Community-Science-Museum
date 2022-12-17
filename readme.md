@@ -11,5 +11,15 @@ Cafè Image - https://simple.wikipedia.org/wiki/Caf%C3%A9#/media/File:R%C3%B6e_g
 Guide Image - https://www.visitexeter.com/things-to-do/exeter-red-coat-guided-tours-p336873
 Medieval Armor Image - https://en.wikipedia.org/wiki/Higgins_Armory_Museum#/media/File:Complete_Armor_for_Combat,_North_Italian,_last_quarter_of_16th_century_-_Worcester_Art_Museum_-_IMG_7707.JPG
 Virtual Reality Image - By ESA, CC BY-SA IGO 3.0, CC BY-SA 3.0 igo, https://commons.wikimedia.org/w/index.php?curid=62840930
+Sword Image - https://commons.wikimedia.org/w/index.php?search=Sword&title=Special:MediaSearch&go=Go&type=image by Silar, CC BY-SA 4.0, via Wikimedia Commons
+Cannon Image - https://commons.wikimedia.org/wiki/File:Medieval_cannon_in_Avignon.JPG by BrokenSphere, via Wikimedia Commons
+Space Suit Image - https://commons.wikimedia.org/wiki/File:NASA_space_suits_at_JSC.jpg
+Moon rock Image - https://commons.wikimedia.org/wiki/File:NASA_Lunar_Sample_15498.jpg by OptoMechEngineer, CC BY-SA 4.0, via Wikimedia Commons
+Satellite Image - https://commons.wikimedia.org/wiki/File:Deutsches_Museum_-_satellite_2.jpg by Tiia Monto, CC BY-SA 4.0, via Wikimedia Commons 
+Virtuality Image - By Dr. Waldern/Virtuality Group - Dr. Jonathan D. Waldern, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=32525505
+Mona Lisa Image - https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg
+Dinosaur AR Image - https://www.stambol.com/2016/12/19/ar-vr-museum/
+Giraffe Skeleton Image - https://commons.wikimedia.org/wiki/File:Giraffe_and_skeleton.jpg, Michael Rowe, CC BY-SA 4.0, via Wikimedia Commons
+T-Rex Image - https://www.history.com/news/worlds-biggest-t-rex-canada-scotty-dinosaur
 Museum Icon - https://www.pngrepo.com/svg/12999/museum
 Fontawesome icons - https://fontawesome.com/icons/location-dot?s=light&f=classic

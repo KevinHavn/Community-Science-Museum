@@ -21,14 +21,17 @@
         class="logo"
         alt="Community Science Museum Icon" />
       <input class="side-menu" type="checkbox" id="side-menu" />
-      <label class="hamburger" for="side-menu"
-      <span class="hidden"><label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label></span>
+      <span class="hidden"
+        ><label class="hamburger" for="side-menu"
+          ><span class="hamburger-line"></span></label
+      ></span>
       <nav>
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
           <li id="selected">Visit</li>
           <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="about.html">About Us</a></li>
         </ul>
       </nav>
     </header>
@@ -41,26 +44,24 @@
             found within this page!
           </p>
         </section>
-        <section class="container flex column" id="prices">
+        <section class="container" id="prices">
           <h2>Our prices</h2>
-          <table>
-            <tr>
-              <td>Children 0-3</td>
-              <td>0,-</td>
-            </tr>
-            <tr>
-              <td>Children 3-15</td>
-              <td>160,-</td>
-            </tr>
-            <tr>
-              <td>Adult</td>
-              <td>200,-</td>
-            </tr>
-            <tr>
-              <td>Student</td>
-              <td>150,-</td>
-            </tr>
-          </table>
+          <div class="flex">
+            <ul>
+              <li>Children 0-3</li>
+              <li>Children 3-16</li>
+              <li>Adults</li>
+              <li>Seniors</li>
+              <li>Students</li>
+            </ul>
+            <ul>
+              <li>Free</li>
+              <li>100-,</li>
+              <li>200-,</li>
+              <li>150-,</li>
+              <li>150-,</li>
+            </ul>
+          </div>
           <p>Tickets are available for purchase in our ticket booth.</p>
           <img
             src="Images/Ticket booth.jpg"
@@ -76,18 +77,18 @@
             src="Images/Map.png"
             alt="Map showing the location of the Museum" />
         </section>
-        <section class="container flex column" id="guidedtours">
+        <section class="container" id="guidedtours">
           <h4>Guided Tours?</h4>
           <p>
             We offer guided tours to groups of people, e.g. schools, and
             workplaces.<br />
             Fill in the form below and we'll contact you.
           </p>
-          <form>
-            <label for="email">E-Mail Address</label> <br />
-            <input type="email" name="E-Mail Address" required /> <br />
-            <label for="message">Details on what you need</label><br />
-            <textarea type="message" name="Details"></textarea> <br />
+          <form class="flex column">
+            <label for="email">E-Mail Address</label>
+            <input type="email" name="E-Mail Address" required />
+            <label for="message">Details on what you need</label>
+            <textarea type="message" name="Details"></textarea>
             <input type="submit" value="Send message" />
           </form>
           <img
@@ -99,7 +100,8 @@
           <p>
             The museum's cafè is located in the main building and serves a
             veriety of delicious food and refreshing drinks! <br />
-            Please note that drinks are not allowed near the displays.
+            Please note that refreshments and beverages are not allowed near the
+            displays.
           </p>
           <img src="Images/cafe.jpg" alt="Image of a Cafè" />
         </section>
@@ -113,7 +115,7 @@
       <section>Developed by Kevin Havn</section>
       <section>
         <i class="fa-regular fa-envelope"></i>
-        <address>CommunityScienceMuseum@MuseumEmail.com</address>
+        <address>CSM@MuseumEmail.com</address>
       </section>
     </footer>
   </body>

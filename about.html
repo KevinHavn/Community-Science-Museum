@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page with content regarding information about the museum, and how to contact us" />
+    <title>Community Science Museum | About Us</title>
+    <link href="CSS/style.css" rel="Stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="Images/museum.png"
+        class="logo"
+        alt="Community Science Museum Icon" />
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <span class="hidden"
+        ><label class="hamburger" for="side-menu"
+          ><span class="hamburger-line"></span></label
+      ></span>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li id="selected">About Us</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="grid" id="aboutgrid">
+        <section class="container" id="aboutus">
+          <h1>Information about the museum</h1>
+          <p>
+            The Community Science Museum is a museum founded in 2012 in
+            Bergen.<br />
+            We're dedicated to making interesting, accessible and informative
+            exhibitions, and to make certain that everyone can enjoy science and
+            learning!
+          </p>
+          <img
+            src="Images/Learning.jpg"
+            alt="Image of a young girl looking at a whiteboard" />
+        </section>
+        <section class="container" id="contactus">
+          <h2>Contact us!</h2>
+          <p>
+            In addition to our e-mail and phone numbers, you can contact us
+            here! Just write your message and press send and we'll be in touch!
+          </p>
+          <form class="flex column">
+            <label for="email">E-Mail Address</label>
+            <input type="email" name="E-Mail Address" required />
+            <label for="message">Details</label>
+            <textarea type="message" name="Details"></textarea>
+            <input type="submit" value="Send message" />
+          </form>
+        </section>
+        <section class="container" id="contactinfo">
+          <h3>Our contact information</h3>
+          <div class="flex">
+            <ul>
+              <li>E-Mail Address</li>
+              <li>Phone Number</li>
+              <li>Postal Address</li>
+            </ul>
+            <ul>
+              <li>+47 555 55 498</li>
+              <li>CSM@MuseumEmail.com</li>
+              <li>Museum Avenue 51, 5070 Bergen</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section class="footer">
+        <i class="fa-regular fa-map"></i>
+        <p>Museum avenue 51</p>
+      </section>
+      <section>Developed by Kevin Havn</section>
+      <section>
+        <i class="fa-regular fa-envelope"></i>
+        <address>CSM@MuseumEmail.com</address>
+      </section>
+    </footer>
+  </body>
+</html>

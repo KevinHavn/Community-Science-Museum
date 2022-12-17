@@ -1,222 +1,395 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 img {
-    max-width:100%;
+  max-width: 100%;
 }
-
 textarea {
-    resize:none;
-    width:250px;
+  resize: none;
+  width: 15rem;
 }
 /*Beginning of Navigation Bar */
-.menu a:visited, .menu a:hover, .menu a:focus {
-    text-decoration: none;
-    color:white;
+.menu a:visited,
+.menu a:hover,
+.menu a:focus {
+  text-decoration: none;
+  color: white;
 }
 body {
-    background-color: white;
-    font-family: "Poppins", 'Times New Roman', serif;
+  background-color: white;
+  font-family: "Poppins", "Times New Roman", serif;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 header {
-    background-color: black;
-    box-shadow: 1px 1px 5px 0px gray;
-    position:absolute;
-    top: 0;
-    width: 100%;
+  background-color: black;
+  box-shadow: 1px 1px 5px 0px gray;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .logo {
-    display:inline-block;
-    color:white;
-    max-width:36px;
-    margin-left:10px;
+  display: inline-block;
+  color: white;
+  max-width: 36px;
+  margin-left: 10px;
+  margin-top: 1rem;
 }
 nav {
-    width:100%;
-    height:100%;
-    position:fixed;
-    background-color:black;
-    overflow:hidden;
-    max-height: 0;
-    transition: max-height .5s ease-out;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
 }
 .menu {
-    display:block;
-    padding:20px;
-    color:white;
+  display: block;
+  padding: 20px;
+  color: white;
 }
 .menu a:hover {
-    color:gray;
+  color: gray;
 }
 .hamburger {
-    cursor:pointer;
-    float:right;
-    padding:40px 20px;
+  cursor: pointer;
+  float: right;
+  padding: 40px 20px;
 }
 .hamburger-line {
-    background: white;
-    display: block;
-    height: 2px;
-    position:relative;
-    width: 24px;
-
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
 }
 .hamburger-line::before,
-.hamburger-line::after{
-    background:white;
-    content: '';
-    display:block;
-    height:100%;
-    position:absolute;
-    transition:all .2s ease-out;
-    width:100%;
+.hamburger-line::after {
+  background: white;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
 }
 .hamburger-line::before {
-    top:5px;
+  top: 5px;
 }
 .hamburger-line::after {
-    top:-5px;
+  top: -5px;
 }
 .side-menu {
-    display:none;
+  display: none;
 }
-.side-menu:checked ~ nav{
-    max-height:100%;
+.side-menu:checked ~ nav {
+  max-height: 100%;
 }
-.side-menu:checked ~ .hamburger .hamburger-line::before{
-    transform:rotate(-45deg);
-    top:0;
+.side-menu:checked ~ .hamburger .hamburger-line::before {
+  transform: rotate(-45deg);
+  top: 0;
 }
-.side-menu:checked ~ .hamburger .hamburger-line::after{
-    transform:rotate(-45deg);
-    top:0;
+.side-menu:checked ~ .hamburger .hamburger-line::after {
+  transform: rotate(-45deg);
+  top: 0;
 }
-#selected  {
-    color:gray;
+#selected {
+  color: gray;
 }
 @media (min-width: 768px) {
-    nav {
-        max-height:none;
-        top:0;
-        position:relative;
-        float:right;
-        width:fit-content;
-    }
-    .menu li {
-        float:left;
-        margin-left:20px;
-        margin-top:-10px;    
-    }
-    menu a:hover{
-        background-color:transparent;
-        color:gray;
-    }
-    .hamburger{
-        display:none;
-    }
-    .hidden {
-        display:none;
-    }
+  nav {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+  }
+  .menu li {
+    float: left;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  menu a:hover {
+    background-color: transparent;
+    color: gray;
+  }
+  .hamburger {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
 }
 /* End of Navigation Bar */
 .container {
-    text-align: center;
-    background:lightgray;
-    overflow: hidden;
-    border: 1px solid black;
+  text-align: center;
+  background: #ededed;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 0.5rem;
 }
 footer {
-    margin-top:20px;
-    background-color:black;
-    color:white;
-    padding:20px;
-    display:flex;
-    justify-content: space-around;
+  margin-top: 1.25rem;
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 0.5rem;
 }
-.footer {
-    display:flex;
-    gap:5px;
-}
+
 table {
-    width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
 }
 .flex {
-    display:flex;
-    justify-content:center;
-    gap:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 .column {
-    flex-direction:column;
+  flex-direction: column;
 }
 .grid {
-    display:grid;
-    gap:20px;
-    min-height:0;
-    min-width:0;
-    margin:160px;
+  display: grid;
+  gap: 1.5rem;
+  min-height: 0;
+  min-width: 0;
+  margin: 10rem;
 }
 #indexgrid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
 }
 #visitgrid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
 }
 #exhibitiongrid {
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows:repeat(3,auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+#exhibitionsgrids {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+#aboutgrid {
+  grid-template-columns: 2;
+  grid-template-rows: 2;
 }
 /* ID for Index Page */
 #news {
-    grid-column:1;
-    grid-row:1;
+  grid-column: 1;
+  grid-row: 1;
 }
 #tour {
-    grid-column:1;
-    grid-row:2;
+  grid-column: 1;
+  grid-row: 2;
 }
 #openinghours {
-    grid-column:1;
-    grid-row:3;
+  grid-column: 1;
+  grid-row: 3;
 }
 #welcome {
-    grid-column:2 / 4;
+  grid-column: 2 / 4;
 }
 #grandopening {
-    grid-column:2 / 4;
-    grid-row:2 / 4;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
 }
 /* ID for Visit page */
 #information {
-    grid-column:1 / 3;
-    grid-row:1;
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
 #prices {
-    grid-column: 1;
-    grid-row:2;
+  grid-column: 1;
+  grid-row: 2;
 }
 #address {
-    grid-column:2;
-    grid-row:2;
+  grid-column: 2;
+  grid-row: 2;
 }
 #guidedtours {
-    grid-column:1;
-    grid-row:3;
+  grid-column: 1;
+  grid-row: 3;
 }
 #cafè {
-    grid-column:2;
-    grid-row:3;
+  grid-column: 2;
+  grid-row: 3;
 }
 /* ID for Exhibitions Page */
 #info {
-    grid-column: 1 / 3
+  grid-column: 1 / 3;
+}
+/*ID for Exhibitions pages */
+#heading {
+  grid-column: 1/3;
+}
+#exhibition1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+#exhibition2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+#exhibition3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+#exhibition4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+/*ID for About Us/Contact Page*/
+#contactus {
+  grid-column: 1;
+  grid-row: 2;
+}
+#aboutus {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+#contactinfo {
+  grid-column: 2;
+  grid-row: 2;
+}
+/* Responsiveness */
+@media only screen and (max-width: 1200px) {
+  /*Homepage*/
+  #indexgrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  .grid {
+    gap: 2rem;
+    margin: 2rem;
+    margin-top: 9rem;
+  }
+  #news {
+    grid-row: 3;
+  }
+  #tour {
+    grid-row: 2;
+  }
+  #openinghours {
+    grid-row: 5;
+    grid-column: 1;
+  }
+  #welcome {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  #grandopening {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  /*Visit Page*/
+  #visitgrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #information {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #prices {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #address {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #guidedtours {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  #cafè {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  /*Exhibitions Pages*/
+  #exhibitionsgrids {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #heading {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #exhibition1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #exhibition2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #exhibition3 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  #exhibition4 {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  /*Exhibitions Link Page*/
+  #exhibitiongrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+  #info {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  #archeological {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  #space {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  #history {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  #virtualreality {
+    grid-row: 5;
+    grid-column: 1;
+  }
+  /*About Us Page*/
+  #aboutgrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #contactus {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #aboutus {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #contactinfo {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 0.8rem;
+  }
 }

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Page showcasing most of the things in the Community Science Museum's Medieval exhibition" />
+    <title>Community Science Museum | Medieval Exhibition</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -13,18 +17,62 @@
         class="logo"
         alt="Community Science Museum Icon" />
       <input class="side-menu" type="checkbox" id="side-menu" />
-      <label class="hamburger" for="side-menu"
-      <span class="hidden"><label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label></span>
+      <span class="hidden"
+        ><label class="hamburger" for="side-menu"
+          ><span class="hamburger-line"></span></label
+      ></span>
       <nav>
         <ul class="menu">
-          <li id="selected">Home</li>
-          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
           <li><a href="visit.html">Visit</a></li>
           <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="about.html">About Us</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="grid" id="exhibitionsgrids">
+        <section class="container" id="heading">
+          <h1>Medieval exhibition</h1>
+        </section>
+        <section class="container" id="exhibition1">
+          <img
+            src="images/Armor.jpg"
+            alt="Image of a display depicting medieval plate armor" />
+          <p>
+            Depicted is one of our main displays in the medieval exhibition -
+            genuine plate armor from the 1500s.
+          </p>
+        </section>
+        <section class="container" id="exhibition2">
+          <img src="Images/crown.jpg" alt="Replica of the Holy Roman Crown" />
+          <p>
+            One of our most wonderful exhibitions is our replica of the Holy
+            Roman Crown, made in 1874!
+          </p>
+        </section>
+        <section class="container" id="exhibition3">
+          <img
+            src="Images/Sword.jpg"
+            alt="Picture of a broken sword on display" />
+          <p>
+            This unique 12th century sword, despite being in rough condition,
+            contains a fascinating amount of history!
+          </p>
+        </section>
+        <section class="container" id="exhibition4">
+          <img
+            src="Images/Cannon.JPG"
+            alt="Image of several cannons stood in a line" />
+          <p>
+            Some people find these old ship cannons incredibly interesting! In
+            this case, they should visit us around New Years' Eve, when we fire
+            these old cannons!
+          </p>
+        </section>
+      </div>
+    </main>
     <footer>
       <section class="footer">
         <i class="fa-regular fa-map"></i>
@@ -33,7 +81,7 @@
       <section>Developed by Kevin Havn</section>
       <section>
         <i class="fa-regular fa-envelope"></i>
-        <address>CommunityScienceMuseum@MuseumEmail.com</address>
+        <address>CSM@MuseumEmail.com</address>
       </section>
     </footer>
   </body>

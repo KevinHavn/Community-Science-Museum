@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Community Science Museum | Events" />
+    <meta
+      name="description"
+      content="Page containing any information regarding the Community Science Museum's Events" />
+    <title>Community Science Museum | Events</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6c3e32c1c7.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Images/museum.png"
+        class="logo"
+        alt="Community Science Museum Icon" />
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <span class="hidden"
+        ><label class="hamburger" for="side-menu"
+          ><span class="hamburger-line"></span></label
+      ></span>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li id="selected">Upcoming Events</li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="grid" id="visitgrid">
+        <section class="container" id="information">
+          <h1>The latest news on our upcoming events!</h1>
+          <p>
+            Within this page you'll be able to find out everything you need to
+            know to join our museum events!
+          </p>
+        </section>
+        <section class="container flex column" id="guidedtours">
+          <h2>VR Seminar</h2>
+          <p>
+            Some leading experts within Virtual Reality and its usage within
+            museums will be holding a seminar the 1. January 2023 to celebrate
+            the grand opening of our brand new Virtual Reality exhibition!
+            <br />
+            Interested? Leave your Email-Address here to be added to the guest
+            list!
+          </p>
+          <form>
+            <label for="email">E-Mail Address</label> <br />
+            <input type="email" name="E-Mail Address" required /> <br />
+            <input type="submit" value="Submit" />
+          </form>
+          <img src="Images/seminar.jpg" alt="A seminar being held" />
+        </section>
+        <section class="container" id="cafè">
+          <h3>Museum Annual Fundraising Gala</h3>
+          <p>
+            The Community Science Museum is hosting its third ever annual
+            Fundraising Gala on the 23. February! <br />
+            All donations collected from the fundraising event will be put into
+            maintaining and opening new exciting exhibitions! <br />
+            Interested in attending? <a href="about.html">Contact us!</a>
+          </p>
+          <img
+            src="Images/gala.jpg"
+            alt="Image of a room decorated in a fancy manner, depicting our gala" />
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section class="footer">
+        <i class="fa-regular fa-map"></i>
+        <p>Museum avenue 51</p>
+      </section>
+      <section>Developed by Kevin Havn</section>
+      <section>
+        <i class="fa-regular fa-envelope"></i>
+        <address>CSM@MuseumEmail.com</address>
+      </section>
+    </footer>
+  </body>
+</html>

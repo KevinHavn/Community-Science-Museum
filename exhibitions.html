@@ -1,73 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Page displaying the different exhibitions available at the museum">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page displaying the different exhibitions available at the museum" />
     <title>Community Science Museum | Exhibitions</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <img src="Images/museum.png" class="logo" alt="Community Science Museum Icon">
-        <input class="side-menu" type="checkbox" id="side-menu"/>
-        <span class="hidden"><label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label></span>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Upcoming Events</a></li>
-                <li><a href="visit.html">Visit</a></li>
-                <li id="selected">Exhibitions</a></li>
-            </ul>
-        </nav>
+      <img
+        src="Images/museum.png"
+        class="logo"
+        alt="Community Science Museum Icon" />
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <span class="hidden"
+        ><label class="hamburger" for="side-menu"
+          ><span class="hamburger-line"></span></label
+      ></span>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li id="selected">Exhibitions</li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="grid" id="exhibitiongrid">
-            <section class="container" id="info">
-                <h1>Our Exhibitions</h1>
-                <p>Our museum currently has four different types of exhibitions:</p>
-                <ul>
-                    <li>The Archeological Exhibition,</li>
-                    <li>The Space Exhibition,</li>
-                    <li>The Historical Exhibition,</li>
-                    <li>The upcoming <a href="">Virtual Reality exihibition</a>, opening January 2023.</li>
-                </ul>
-            </section>
-            <section class="container">
-                <h2>The Archeological Exhibition</h2>
-                <p>Interested in archeology? Our museum has several archeological fossils on display!<br> Click here if you're interested!</p>
-                <img src="Images/skeleton-414543_1920.jpg" alt="Several skeletons in a display, some looking like ancient neanderthals">
-            </section>
-            <section class="container">
-                <h2>The Space Exhibition</h2>
-                <p>Space is the final frontier - and the museum has an entire exhibition devoted to celebrating mankind's efforts in trying to explore this final frontier!<br> Click here if you're interested!</p>
-                <img src="Images/Space Shuttle Atlantist.jpg" alt="Several skeletons in a display, some looking like ancient neanderthals">
-            </section>
-            <section class="container">
-                <h2>The Historical Exhibition</h2>
-                <p>Interested in history? Our museum has several genuine historical artifacts on display, most of them from Feudal Europe!<br> Click here if you're interested!</p>
-                <img src="Images/Armor.jpg" alt="A set of Medieval Plate armor from the 1500s">
-            </section>
-            <section class="container">
-                <h2>The Virtual Reality Exhibition</h2>
-                <p>Virtual Reality is becoming more and more significant, and to celebrate this wonderful technology the museum has built a brand new Virtual Reality Exhibition!<br> Click here if you're interested!</p>
-                <img src="Images/Virtual Reality.jpg" alt="A man wearing a VR headset, with a screen behind him showing some sort of simulation">
-            </section>
-        </div>
+      <div class="grid" id="exhibitiongrid">
+        <section class="container" id="info">
+          <h1>Our Exhibitions</h1>
+          <p>
+            Our museum currently has four different types of exhibitions! <br />
+            Do note that the Virtual Reality exhibition is currently
+            unavailable.
+          </p>
+        </section>
+        <section class="container" id="archeological">
+          <h2>The Archeological Exhibition</h2>
+          <p>
+            Interested in archeology? Our museum has several archeological
+            fossils on display!<br />
+            <a href="archeology.html">Click here if you're interested!</a>
+          </p>
+          <img
+            src="Images/skeleton-414543_1920.jpg"
+            alt="Several skeletons in a display, some looking like ancient neanderthals" />
+        </section>
+        <section class="container" id="space">
+          <h2>The Space Exhibition</h2>
+          <p>
+            Space is the final frontier - and the museum has an entire
+            exhibition devoted to celebrating mankind's efforts in trying to
+            explore this final frontier!<br />
+            <a href="space.html">Click here if you're interested!</a>
+          </p>
+          <img
+            src="Images/Space Shuttle Atlantist.jpg"
+            alt="Image of a Space Shuttle hanging off a roof" />
+        </section>
+        <section class="container" id="history">
+          <h2>The Historical Exhibition</h2>
+          <p>
+            Interested in history? Our museum has several genuine historical
+            artifacts on display, most of them from Feudal Europe!<br />
+            <a href="Medieval.html">Click here if you're interested!</a>
+          </p>
+          <img
+            src="Images/Armor.jpg"
+            alt="A set of Medieval Plate armor from the 1500s" />
+        </section>
+        <section class="container" id="virtualreality">
+          <h2>The Virtual Reality Exhibition</h2>
+          <p>
+            Virtual Reality is becoming more and more significant, and to
+            celebrate this wonderful technology the museum has built a brand new
+            Virtual Reality Exhibition!<br />
+            <a href="VR.html">Click here if you're interested!</a>
+          </p>
+          <img
+            src="Images/Virtual Reality.jpg"
+            alt="A man wearing a VR headset, with a screen behind him showing some sort of simulation" />
+        </section>
+      </div>
     </main>
-<footer>
-    <section class="footer">
+    <footer>
+      <section class="footer">
         <i class="fa-regular fa-map"></i>
         <p>Museum avenue 51</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <p>Developed by Kevin Havn</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <i class="fa-regular fa-envelope"></i>
-        <address>CommunityScienceMuseum@MuseumEmail.com</address>
-    </section>
-</footer>
-</body>
+        <address>CSM@MuseumEmail.com</address>
+      </section>
+    </footer>
+  </body>
 </html>
