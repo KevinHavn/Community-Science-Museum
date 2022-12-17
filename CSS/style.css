@@ -10,7 +10,12 @@ textarea {
   resize: none;
   width: 15rem;
 }
+.link a:link, .link a:active, .link a:visited {
+  color:purple;
+  font-weight:800;
+} 
 /*Beginning of Navigation Bar */
+.menu a:link,
 .menu a:visited,
 .menu a:hover,
 .menu a:focus {
@@ -18,7 +23,6 @@ textarea {
   color: white;
 }
 body {
-  background-color: white;
   font-family: "Poppins", "Times New Roman", serif;
 }
 a {
@@ -56,7 +60,7 @@ nav {
   color: white;
 }
 .menu a:hover {
-  color: gray;
+  text-decoration:underline;
 }
 .hamburger {
   cursor: pointer;
@@ -102,6 +106,7 @@ nav {
 }
 #selected {
   color: gray;
+  font-weight:800;
 }
 @media (min-width: 768px) {
   nav {
