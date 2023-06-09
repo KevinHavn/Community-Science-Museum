@@ -1,6 +1,24 @@
--------------- SEMESTER EXAM PROJECT 21 NOVEMBER -> 18 DECEMBER --------------
+# Your project title
 
-------------------------------- REFERENCES -------------------------------
+This is the Community Science Museum, my first exam at Noroff. The purpose of this project was to put my skills with HTML & CSS to the test, making a functional and responsive website.
+
+## Description
+
+When starting out with this project, I immediately decided I was going to set functionality before aesthetics. As such, this website is quite bland to look at, but presents the information necessary quite well in my belief.
+
+## Built With
+
+- HTML
+- CSS
+- [Adobe XD](https://www.adobe.com/)
+
+## Contact
+
+[My Github Page](www.github.com/KevinHavn)
+[My LinkedIn page](www.linkedin.com/in/kevin-havn)
+
+## Acknowledgments
+
 Hamburger Guide Tutorial - https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
 Guided Tours Image - https://www.bremen-tourism.de/bremen/offer/detail/English-Guided-Tour-adult-DEU99999990039287955?lang=en
 Image Compressor - https://imagecompressor.com/
@@ -15,7 +33,7 @@ Sword Image - https://commons.wikimedia.org/w/index.php?search=Sword&title=Speci
 Cannon Image - https://commons.wikimedia.org/wiki/File:Medieval_cannon_in_Avignon.JPG by BrokenSphere, via Wikimedia Commons
 Space Suit Image - https://commons.wikimedia.org/wiki/File:NASA_space_suits_at_JSC.jpg
 Moon rock Image - https://commons.wikimedia.org/wiki/File:NASA_Lunar_Sample_15498.jpg by OptoMechEngineer, CC BY-SA 4.0, via Wikimedia Commons
-Satellite Image - https://commons.wikimedia.org/wiki/File:Deutsches_Museum_-_satellite_2.jpg by Tiia Monto, CC BY-SA 4.0, via Wikimedia Commons 
+Satellite Image - https://commons.wikimedia.org/wiki/File:Deutsches_Museum_-_satellite_2.jpg by Tiia Monto, CC BY-SA 4.0, via Wikimedia Commons
 Virtuality Image - By Dr. Waldern/Virtuality Group - Dr. Jonathan D. Waldern, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=32525505
 Mona Lisa Image - https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg
 Dinosaur AR Image - https://www.stambol.com/2016/12/19/ar-vr-museum/
