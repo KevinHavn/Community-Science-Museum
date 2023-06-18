@@ -13,6 +13,10 @@ When starting out with this project, I immediately decided I was going to set fu
 - CSS
 - [Adobe XD](https://www.adobe.com/)
 
+## Contributing
+
+Contributions to this project are currently closed!
+
 ## Contact
 
 [My Github Page](www.github.com/KevinHavn)
