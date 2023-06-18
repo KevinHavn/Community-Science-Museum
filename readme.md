@@ -1,5 +1,6 @@
-# Your project title
+# Semester Project 1 - Community Science Museum
 
+![Museum Building](/Images/museumbuilding.jpg)
 This is the Community Science Museum, my first exam at Noroff. The purpose of this project was to put my skills with HTML & CSS to the test, making a functional and responsive website.
 
 ## Description
@@ -36,7 +37,7 @@ Cafè Image - https://simple.wikipedia.org/wiki/Caf%C3%A9#/media/File:R%C3%B6e_g
 Guide Image - https://www.visitexeter.com/things-to-do/exeter-red-coat-guided-tours-p336873
 
 Medieval Armor Image - https://en.wikipedia.org/wiki/Higgins_Armory_Museum#/media/File:Complete_Armor_for_Combat,_North_Italian,
-_last_quarter_of_16th_century_-_Worcester_Art_Museum_-_IMG_7707.JPG
+_last_quarter_of_16th_century_-_Worcester_Art_Museum_-\_IMG_7707.JPG
 
 Virtual Reality Image - By ESA, CC BY-SA IGO 3.0, CC BY-SA 3.0 igo, https://commons.wikimedia.org/w/index.php?curid=62840930
 
