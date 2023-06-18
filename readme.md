@@ -13,6 +13,12 @@ When starting out with this project, I immediately decided I was going to set fu
 - CSS
 - [Adobe XD](https://www.adobe.com/)
 
+## Getting Started
+
+### Running
+
+This project is available online at [https://www.kevinhavn.no/CommunityScienceMuseum] (https://www.kevinhavn.no/CommunityScienceMuseum)
+
 ## Contributing
 
 Contributions to this project are currently closed!
